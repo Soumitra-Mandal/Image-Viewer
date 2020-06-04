@@ -1,0 +1,35 @@
+.viewer
+{
+  background-image: url("wp/138518.jpg");
+  background-size: 800px 500px;
+  border: 1px black solid;
+  height: 500px;
+  width:800px;
+  position: absolute;
+  left:25%;
+  transition: background-image 0.8s;
+}
+
+body
+{
+  background-color: rgb(230,230,220);
+}
+.left
+{
+  position: absolute;
+  top:520px;
+  right:50%;
+}
+
+.right
+{
+  position: absolute;
+  top:520px;
+  left:50%;
+}
+
+#rb , #lb
+{
+  background-color: black;
+  color: white;
+}
